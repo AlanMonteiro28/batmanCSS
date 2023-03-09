@@ -1,0 +1,172 @@
+body{
+    background-color: #6b6b6b;
+}
+
+/* definindo posiçao*/
+.batman{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/* definindo posicionamento do fundo  e o background da logo preto e amarelo*/
+.fundo{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    overflow:hidden;
+}
+
+.fundoamarelo{
+    position:absolute;
+    width:460px;
+    height:260px;
+    border-radius:50%;
+    border:15px solid #000;
+    background:#ffe23b;
+    top:3px;
+    left:4px;
+    overflow:hidden;
+  }
+
+/* definindo o corpo da logo*/
+.corpo{
+    position:absolute;
+    width:420px;
+    height:230px;
+    border-radius:70%;
+    background:#000;
+    top:35px;
+    left:40px;
+}
+
+/* definindo os espaços que ficarão da mesma cor do background(amarelo) para moldar o corpo da logo
+--LADO ESQUERDO--
+*/
+.asaesquerdacima{
+    position:absolute;
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    background:#ffe23b;
+    top:45px;
+    left:140px;
+    transform: rotate(-15deg);
+}
+
+.asaesquerdacima_{
+    position:absolute;
+    width: 50px;
+    height:50px;
+    background: #ffe23b;
+    top:35px;
+    left:170px;
+    transform: rotate(0deg);
+}
+
+.asaesquerdabaixo{
+    position:absolute;
+    width: 65px;
+    height:80px;
+    background: #ffe23b;
+    top: 190px;
+    left:115px;
+    transform: rotate(-45deg);
+    border-radius: 50%
+}
+
+.asaesquerdabaixo_{
+    position:absolute;
+    width: 52px;
+    height:80px;
+    background: #ffe23b;
+    top: 192px;
+    left:166px;
+    transform: rotate(-5deg);
+    border-radius: 50%; 
+}
+
+.asaesquerdabaixo__{
+    position:absolute;
+    width: 52px;
+    height:100px;
+    background: #ffe23b;
+    top: 185px;
+    left:185px;
+    transform: rotate(-35deg);
+    border-radius:50%;
+}
+
+/*
+-- LADO DIREITO--
+ */
+ .asadireitacima{
+    position:absolute;
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    background:#ffe23b;
+    top:40px;
+    left:260px;
+    transform: rotate(-15deg);
+}
+
+.asadireitacima_{
+    position:absolute;
+    width: 50px;
+    height:50px;
+    background: #ffe23b;
+    top:35px;
+    left:260px;
+    transform: rotate(0deg);
+}
+
+.asadireitabaixo{
+    position:absolute;
+    width: 65px;
+    height:80px;
+    background: #ffe23b;
+    top: 190px;
+    left:315px;
+    transform: rotate(45deg);
+    border-radius: 50%
+}
+
+.asadireitabaixo_{
+    position:absolute;
+    width: 52px;
+    height:80px;
+    background: #ffe23b;
+    top: 192px;
+    left:275px;
+    transform: rotate(5deg);
+    border-radius: 50%; 
+}
+
+.asadireitabaixo__{
+    position:absolute;
+    width: 52px;
+    height:100px;
+    background: #ffe23b;
+    top: 185px;
+    left:250px;
+    transform: rotate(35deg);
+    border-radius:50%;
+}
+
+/*
+-- CABEÇA --
+*/
+.cabeça{
+    top:35px;
+    left:215px;
+    position:absolute;
+      border-bottom: 35px solid #ffe23b;
+      border-left: 15px solid transparent;
+      border-right:15px solid transparent;
+      height: 0px;
+      width: 20px;
+    transform: rotate(180deg);
+  }
